@@ -1,0 +1,61 @@
+{
+	  "id": "e7533930-2792-43a9-b4b5-ded4617d8a43",
+	    "revision": 0,
+	      "last_node_id": 54,
+	        "last_link_id": 111,
+		  "nodes": [
+			      {
+				            "id": 54,
+					          "type": "ModelSamplingSD3",
+						        "pos": [
+								        510,
+									        70
+										      ],
+										            "size": [
+												            315,
+													            58
+														          ],
+															        "flags": {},
+																      "order": 5,
+																            "mode": 0,
+																	          "inputs": [
+																			          {
+																					            "name": "model",
+																						              "type": "MODEL",
+																							                "link": 110
+																									        }
+																										      ],
+																										            "outputs": [
+																												            {
+																														              "name": "MODEL",
+																															                "type": "MODEL",
+																																	          "slot_index": 0,
+																																		            "links": [
+																																				                111
+																																						          ]
+																																							          }
+																																								        ],
+																																									      "properties": {
+																																										              "Node name for S&R": "ModelSamplingSD3"
+																																											            },
+																																												          "widgets_values": [
+																																														          8
+																																															        ]
+																																																    },
+																																																        {
+																																																		      "id": 50,
+																																																		            "type": "WanImageToVideo",
+																																																			          "pos": [
+																																																					          970,
+																																																						          180
+																																																							        ],
+																																																								      "size": [
+																																																									              342.5999755859375,
+																																																										              210
+																																																											            ],
+																																																												          "flags": {},
+																																																													        "order": 9,
+																																																														      "mode": 0,
+																																																														            "inputs": [
+																																																																            {
+																																																																		              
